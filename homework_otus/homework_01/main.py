@@ -29,6 +29,9 @@ def filter_numbers(arq, order):
             result =filter(is_prime , arq)
         else:
             print("You type unknown order")
+
+
+
             return []
 
         return list(result)
